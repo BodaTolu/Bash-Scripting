@@ -8,6 +8,9 @@
 
 # STEPS INVOLVED: 
 - Launch an instance in the cloud using Ubuntu's package manager
+
+![](https://github.com/BodaTolu/Bash-Scripting/blob/main/Bash%20Scripting/aws%20bash.png)
+
 - Open port 80 and 22 in security group inbound rules
 - Create a file in the root directly and name it lamp.sh
 
@@ -81,8 +84,9 @@ mysql --version
 echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
 
 # Display completion message
-echo "LAMP stack setup completed!"
+echo "LAMP setup completed!"
 ```
+![](https://github.com/BodaTolu/Bash-Scripting/blob/main/Bash%20Scripting/mysql.png)
 After adding the script into the file, save the file with :wq
 
 - grant the file permission and run
@@ -102,4 +106,11 @@ sudo ./lamp_setup.sh
 This part of the code is going to prompt you for some configurations
 
 - To confirm installation use the Public Ip of webserver:80
+
+![](https://github.com/BodaTolu/Bash-Scripting/blob/main/Bash%20Scripting/apache.png)
+
 - Check for mysql and php installation
+
+![](https://github.com/BodaTolu/Bash-Scripting/blob/main/Bash%20Scripting/mysql%20bye.png)
+
+![](https://github.com/BodaTolu/Bash-Scripting/blob/main/Bash%20Scripting/php%202.png)
